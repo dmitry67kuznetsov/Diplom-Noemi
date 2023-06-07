@@ -195,7 +195,7 @@
 	/*цвет поверх фонового изображения*/
 	.head-fon-filter{
 		background: #00000099;
-		height: 450px;
+		height: 452px;
 	}
 	.container{
 		height: 450px;
@@ -207,6 +207,8 @@
 	.head-main-navigation{
 		display: flex;
 		flex-direction: row;
+		justify-content: flex-end;
+		align-items: center;
 		font-size: 13px;
 	}
 	.navigation-one{
@@ -239,14 +241,15 @@
 
 
 	.head-tagline{
-		height: 380px;
+		width: 100%;
+		height: 358px;
 		color: #fff;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}/*Задаем стили шрифту в блоке*/
 	.head-tagline-h1{
-		max-width: 680px;
+		width: 58%;
 		font-size: 45px;
 		line-height: 75px;
 		color: #ffffff;
@@ -262,7 +265,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-top: 65px;
+		margin-top: 63px;
 	}
 	/*Задаем стили шрифту"*/
 	.body-trend-h2{
@@ -310,7 +313,7 @@
 	}
 	.body-trend-list{
 		border: 3px solid #b59f5b;
-		padding: 33px 33px;
+		padding: 41px 35px;
 	}
 	.body-trend-list-span{
 		margin-right: 18px;
@@ -366,7 +369,7 @@
 		align-items: flex-start;
 	}
 	.body-category{
-		width: 70%;
+		width: 69%;
 	}
 	.body-category-all{
 		display: flex;
@@ -375,7 +378,7 @@
 	.body-category-list{
 		width: 100%;
 		color: #000;
-		padding-bottom: 60PX;
+		padding-bottom: 60px;
 		display: flex;
 		flex-direction: row;
 	}
@@ -384,6 +387,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		max-width: 382px;
+		max-height: 285px;
 	}
 	.body-category-list-i-img{
 		object-fit: cover;
@@ -391,7 +396,7 @@
 	}
 	.body-category-list-tx{
 		width: 50%;
-		padding-left: 1%;
+		padding-left: 30px;
 	}
 	.body-category-list-tx-span{
 		margin-right: 18px;
@@ -423,7 +428,7 @@
 		font-weight: 400;
 	}
 	.body-filters{
-		width: 30%;
+		width: 31%;
 		padding-left: 120px;
 	}
 	.body-filters-post-h2{
@@ -651,8 +656,7 @@
 	}
 	/*блок "наши изделия"*/
 	.body-products{
-		margin-top: 65px;
-		padding: 0 15px;
+		padding: 3px 15px;
 	}
 	.body-products-h2{
 		display: flex;
@@ -739,7 +743,7 @@
 		background: #323232;
 	}
 	.body-contacts{
-		padding-top: 94px;
+		padding-top: 90px;
 	}
 	.body-contacts-all{
 		height: 82px;
@@ -790,12 +794,15 @@
 		height: 36px;
 	}
 	.head-tagline-h1 {
-    max-width: 610px;
+    width: 87%;
     font-size: 40px;
     line-height: 55px;
 	}
 	header {
     height: 392px;
+	}
+	.head-tagline {
+    height: 305px;
 	}
 	.head-fon-filter {
     height: 392px;
@@ -805,7 +812,7 @@
 		display: none;
 	}
 	.w {
-    height: 306px;
+    height: 247px;
 	}
 	.body-trend {
     margin-top: 50px;
@@ -834,7 +841,8 @@
 		background-repeat: no-repeat;
 	}
 	.padding {
-		margin-top: 50px;
+		margin-top: 0px;
+		padding: 50px 35px;
 	}
 	.body-category {
     width: 58%;
@@ -845,11 +853,13 @@
 	.body-category-list {
 		flex-direction: column;
 		border-bottom: 3px #eeeeee solid;
-		margin-bottom: 30px;
-		padding-bottom: 30px;
+		margin-bottom: 40px;
+		padding-bottom: 20px;
 	}
 	.body-category-list-i {
 		width: 100%;
+		max-width: 392px;
+    max-height: 302px;
 	}
 	.body-category-list-tx {
 		width: 100%;
@@ -857,18 +867,18 @@
 		padding-left: 0%;
 	}
 	.body-filters {
-		padding-left: 30px;
+		padding-left: 35px;
 		width: 42%;
 	}
 	.body-products {
-  	margin-top: 50px;
+  	margin-top: 10px;
 	}
 	.body-products-all {
 		flex-wrap: wrap;
 	}
 	.body-products-list {
 		width: 48%;
-		margin-bottom: 6%;
+		margin-bottom: 38px;
 	}
 	.body-products-bor {
 		width: 100%;
@@ -878,13 +888,13 @@
 	}
 	.body-contacts {
     padding-top: 0px;
-    margin-top: 50px;
+    margin-top: 12px;
 	}
 	.feedback-form {
 		width: 450px;
 	}
 	footer {
-	    margin-top: 50px;
+	    margin-top: 0px;
 	}
 
 	}
@@ -903,7 +913,7 @@
 	.logo-mob{
 		display: block;
     width: 82%;
-		padding-bottom: 45px;
+		padding-bottom: 43px;
 	}
 	.head-main-burger-img {
 		width: 26px;
@@ -918,7 +928,7 @@
 	}
 	.head-tagline {
 		flex-direction: column;
-		padding-bottom: 68px;
+		padding-bottom: 42px;
 	}
 	.head-tagline-h1 {
 		line-height: 36px;
@@ -934,10 +944,21 @@
 		width: 100%;
 		height: 230px;
 	}
+	.body-category-list-i {
+    max-width: 330px;
+    max-height: 254px;
+	}
+	.padding {
+    padding: 44px 15px;
+	}
+	.body-category-list-tx {
+    padding-top: 17px;
+	}
 	.body-category-list-tx-h2,
 	.body-trend-list-h3 {
     font-size: 16px;
     line-height: 20px;
+		padding: 16px 0px 25px 0px;
 	}
 	.body-trend-list1,
 	.body-trend-list3 {
@@ -967,6 +988,7 @@
 	}
 	.body-filters {
 		padding-left: 0px;
+		padding-top: 10px;
 	}
 	.body-category-list-tx-span {
 		line-height: 40px;
@@ -974,6 +996,26 @@
 	.body-category-list-tx-p {
 		font-size: 14px;
 		line-height: 20px;
+		padding-bottom: 25px !important;
+	}
+	.body-category-list {
+    margin-bottom: 35px;
+    padding-bottom: 0px;
+	}
+	.body-filters-list {
+    padding-top: 45px;
+	}
+	.form-but-button {
+    margin-top: 15px;
+	}
+	.body-filters-tags {
+    padding-top: 45px;
+	}
+	.body-filters-topic {
+    padding-top: 45px;
+	}
+	.body-products {
+    margin-top: 44px;
 	}
 	.body-products-tx-h2 {
     font-size: 17px;
@@ -993,19 +1035,21 @@
 		outline-offset: 30px;
 	}
 	.body-products-list {
-		margin-bottom: 20%;
+		margin-bottom: 59px;
 	}
 	.body-products-but-h3 {
     font-size: 14px;
 	}
-	footer {
-	    margin-top: 45px;
+	.body-contacts {
+    margin-top: 16px;
 	}
+
 
 	}
 	@media screen and (orientation: landscape) {
 	.w {
 		width: calc(100% / 2);
+		height: 247px;
 	}
 	.body-trend-all {
     flex-direction: row;
